@@ -44,7 +44,7 @@ const ContactForm = () => {
       {/* Right: Background Image */}
       <div
         className="bg-cover bg-center rounded-tl-[10px] rounded-tr-none rounded-br-none rounded-bl-[10px] lg:block hidden xl:block"
-        style={{ backgroundImage: "url('/rectangle.jpg')" }}
+        style={{ backgroundImage: "url('/Rectangle.jpg')" }}
       ></div>
 
       {/* Left: Contact Form */}
