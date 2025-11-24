@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap");
+
+@layer base {
+  :root {
+    --font-montserrat: "Montserrat", sans-serif;
+  }
+}
+ 
+* {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --curious-blue: #3c8dbc;
+  --tangerine: #f68d2d;
+  --lima: #7ec347;
+  --persian-green: #20a595;
+  --grey: #d8d8d8;
+
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: var(--font-montserrat);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  p {
+    text-align: center;
+  }
+
+  .formm {
+    padding: 0 30px !important;
+  }
+}
